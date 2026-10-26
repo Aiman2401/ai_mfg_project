@@ -1,0 +1,12 @@
+﻿material_id,material_name,material_class,density_g_cm3,yield_strength_mpa,ultimate_strength_mpa,thermal_conductivity_w_mk,machinability_index,raw_cost_index,co2_footprint_kg_per_kg
+MAT-AL-6061,Aluminium 6061-T6,Metal / Aluminium Alloy,2.7,276,310,167,100,1,8.5
+MAT-AL-7075,Aluminium 7075-T6,Metal / Aerospace Aluminium,2.81,503,572,130,70,1.45,10.2
+MAT-CF-EPOXY,Carbon Fiber CF-Epoxy (Toray T700),Composite,1.55,600,850,5,40,3.2,24
+MAT-TI-GR5,Titanium Ti-6Al-4V (Grade 5),Metal / Titanium Alloy,4.43,880,950,6.7,22,4.8,35
+MAT-PA12,PA12 Polyamide Nylon,Polymer / Thermoplastic,1.01,48,52,0.22,90,1.2,6.8
+MAT-PA12-CF,PA12-CF Carbon-Reinforced Nylon,Polymer Composite,1.12,85,105,0.4,80,1.65,11.5
+MAT-PC-ABS,PC-ABS Flame Retardant (UL94-V0),Polymer / Thermoplastic Blend,1.18,55,60,0.24,95,1.15,5.4
+MAT-FR4-TG,FR-4 High-Tg Epoxy Glass Fabric,Dielectric Substrate,1.85,340,380,0.35,60,1.1,7.2
+MAT-COPPER,Copper C11000 ETP,Metal / Pure Copper,8.94,195,240,388,85,2.1,4.5
+MAT-SS-316,Stainless Steel 316L,Metal / Austenitic Steel,8,290,580,16.3,45,1.6,6.1
+MAT-SILICONE,Liquid Silicone Rubber (Shore 40A),Elastomer,1.12,8,12,0.2,100,1.3,3.8

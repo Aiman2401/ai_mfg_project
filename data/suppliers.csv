@@ -1,0 +1,26 @@
+﻿supplier_id,supplier_name,supplier_tier,quality_rating,on_time_delivery_pct,lead_time_days,qualification_status,certified_materials,synthetic_assumption_flag
+SUP-001,AeroMetals Precision Stock Ltd,TIER_1,4.85,98.2,12,APPROVED,MAT-AL-6061;MAT-AL-7075;MAT-TI-GR5,True
+SUP-002,Toray Carbon Composites GmbH,TIER_1,4.9,99.1,18,APPROVED,MAT-CF-EPOXY,True
+SUP-003,Apex Precision CNC Aerospace Components,TIER_1,4.75,96.5,14,APPROVED,MAT-AL-6061;MAT-AL-7075,True
+SUP-004,Sabic Polymer Solutions Europe,TIER_1,4.65,95,10,APPROVED,MAT-PC-ABS;MAT-PA12,True
+SUP-005,Arkema Advanced Polymer Powders,TIER_2,4.4,92.4,21,APPROVED,MAT-PA12;MAT-PA12-CF,True
+SUP-006,Shennan Circuits HDI Foundry,TIER_1,4.8,97.8,15,APPROVED,MAT-FR4-TG,True
+SUP-007,Isola Group Dielectric Laminates,TIER_2,4.55,94.2,20,APPROVED,MAT-FR4-TG,True
+SUP-008,KME High-Conductivity Copper Wire,TIER_2,4.35,91,16,APPROVED,MAT-COPPER,True
+SUP-009,Outokumpu Stainless Special Steels,TIER_1,4.7,96,14,APPROVED,MAT-SS-316,True
+SUP-010,Wacker Silicones LSR Elastomers,TIER_1,4.6,95.5,12,APPROVED,MAT-SILICONE,True
+SUP-011,Titanium Industries Global Stock,TIER_1,4.85,98,24,APPROVED,MAT-TI-GR5,True
+SUP-012,Protolabs Rapid Injection Moulding,TIER_2,4.25,89.5,7,CONDITIONAL,MAT-PC-ABS,True
+SUP-013,Bibus Metals High-Nickel & Titanium,TIER_2,4.15,88,28,CONDITIONAL,MAT-TI-GR5;MAT-AL-7075,True
+SUP-014,Fastenal Industrial Fastener Solutions,TIER_1,4.75,98.5,5,APPROVED,MAT-SS-316;MAT-TI-GR5,True
+SUP-015,T-Motor High-Efficiency Propulsion Cell,TIER_1,4.92,99,22,APPROVED,MAT-COPPER,True
+SUP-016,Shenzhen SMT Electronics Assembly,TIER_2,3.95,86,25,UNDER_REVIEW,MAT-FR4-TG,True
+SUP-017,Hexcel Carbon Composites Inc,TIER_1,4.88,98.6,19,APPROVED,MAT-CF-EPOXY,True
+SUP-018,Bayer MaterialScience Custom Resins,TIER_2,4.3,91.5,14,APPROVED,MAT-PC-ABS,True
+SUP-019,Alpha Assembly Solder Materials,TIER_1,4.8,97.5,8,APPROVED,MAT-COPPER,True
+SUP-020,Molex Automotive & Drone Wiring Systems,TIER_1,4.78,97,11,APPROVED,MAT-COPPER,True
+SUP-021,Alcoa Heavy Aerospace Extrusions,TIER_1,4.82,96.8,20,APPROVED,MAT-AL-7075,True
+SUP-022,Shin-Etsu Specialty Silicones,TIER_2,4.45,93,15,APPROVED,MAT-SILICONE,True
+SUP-023,TE Connectivity Industrial Connectors,TIER_1,4.85,98.2,9,APPROVED,MAT-COPPER,True
+SUP-024,QuickTurn CNC Prototype Machine Shop,TIER_2,3.8,84.5,6,UNDER_REVIEW,MAT-AL-6061,True
+SUP-025,Global Fasteners & Hardware Wholesalers,TIER_2,4.1,87,12,CONDITIONAL,MAT-SS-316,True

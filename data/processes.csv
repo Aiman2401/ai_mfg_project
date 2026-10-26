@@ -1,0 +1,9 @@
+﻿process_id,process_name,machine_type,cycle_mean_min,cycle_sd_min,power_rating_kw,energy_mean_kwh,governing_sop_id
+CNC_MACHINING,CNC High-Speed Precision Milling,CNC_MILL,8.5,1.8,18,2.55,SOP-CNC-001
+ADDITIVE_MANUFACTURING,Selective Laser Sintering & Industrial FDM,3D_PRINTER_SLS,38,8.5,3.2,2.02,SOP-AM-001
+INJECTION_MOULDING,High-Pressure Thermoplastic Injection Moulding,INJECTION_MOULDER,1.5,0.25,25,0.62,SOP-IM-001
+PCB_ASSEMBLY,Surface Mount Technology (SMT) & Multi-Zone Reflow,SMT_PICK_PLACE_REFLOW,6,1.2,12,1.2,SOP-PCB-001
+MOTOR_ASSEMBLY,Brushless DC Motor Stator Winding & Rotor Balancing,MOTOR_CELL,7.5,1.5,4.5,0.56,SOP-MOT-001
+CABLE_HARNESS_ASSEMBLY,Automated Wire Stripping & Terminal Crimping,CRIMP_AUTOMATION_BENCH,4.5,1,1.8,0.13,SOP-HAR-001
+MECHANICAL_ASSEMBLY,Robotic & Controlled-Torque Structural Fastening,TORQUE_ASSEMBLY_BENCH,5,1.1,0.8,0.07,SOP-ASM-001
+FINAL_INSPECTION_QA,Coordinate Measuring Machine (CMM) & Dynamic Spin QA,CMM_INSPECTION_CELL,4,0.8,2.5,0.17,SOP-QA-001

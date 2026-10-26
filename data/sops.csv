@@ -1,0 +1,13 @@
+﻿sop_id,title,revision,scope,critical_tolerances,risk_classification
+SOP-CNC-001,High-Speed Milling Protocol for Aerospace Aluminum Alloys,B,CNC_MACHINING,+/- 0.05 mm,HIGH
+SOP-CNC-002,Precision Jig Boring & Arm Hinge Mating Hole Protocol,A,CNC_MACHINING,+/- 0.02 mm,CRITICAL
+SOP-AM-001,SLS Selective Laser Sintering of Structural Nylon Components,C,ADDITIVE_MANUFACTURING,+/- 0.20 mm,MEDIUM
+SOP-IM-001,Injection Moulding Parameters for Flame-Retardant PC-ABS Shells,B,INJECTION_MOULDING,+/- 0.15 mm,MEDIUM
+SOP-PCB-001,Lead-Free SMT Reflow Profile & Solder Defect Control Protocol,D,PCB_ASSEMBLY,IPC-A-610 Class 3,HIGH
+SOP-MOT-001,Brushless Motor Winding Resistance & Dynamic Balancing Rig,A,MOTOR_ASSEMBLY,ISO 1940 Grade G2.5,HIGH
+SOP-HAR-001,High-Current Cable Crimp Pull-Force & Insulation Verification,A,CABLE_HARNESS_ASSEMBLY,> 180 N crimp pull force,HIGH
+SOP-ASM-001,Fastener Torque-Angle Specification & Threadlocker Application,C,MECHANICAL_ASSEMBLY,+/- 5% torque window,CRITICAL
+SOP-QA-001,Coordinate Measuring Machine First-Article Inspection Standard,B,FINAL_INSPECTION_QA,AS9102 Compliant,HIGH
+SOP-QA-002,In-Circuit Testing & Dual-IMU Sensor Calibration Protocol,A,FINAL_INSPECTION_QA,< 0.05 deg tilt error,CRITICAL
+SOP-SCM-001,Incoming Aerospace Raw Material Batch Qualification & Mill Certs,A,SUPPLY_CHAIN,Mill Test Certificate 3.1,HIGH
+SOP-ECO-001,Engineering Change Order Risk Classification & Approval Matrix,E,CHANGE_MANAGEMENT,CMII Standards,CRITICAL
