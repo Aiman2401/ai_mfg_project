@@ -1,4 +1,4 @@
 neo4j
 pandas
 python-dotenv
-chromdb 
+chromadb 
