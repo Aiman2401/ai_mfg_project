@@ -72,9 +72,8 @@ class State(TypedDict, total=False):
 def parse_change(state: State) -> dict:
     req = state["request"]
     
-    # Simple extraction rule to test the workflow without an LLM
+    req = state.get("request") or ""
     cid = "FRAME-TOP-PLATE"
-    attr = "material" if "material" in req.lower() else "process"
     
     parsed = {
         "component_id": cid,
