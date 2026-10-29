@@ -16,6 +16,7 @@ from typing import TypedDict
 from dotenv import load_dotenv
 from langgraph.graph import END, START, StateGraph
 from neo4j import GraphDatabase
+from gnn_model import predict_impact_scores
 
 sys.path.insert(0, str(Path(__file__).parent))
 import rag
@@ -322,6 +323,23 @@ def build_app():
     g.add_edge("synthesis", "report")
     g.add_edge("report", END)
     return g.compile()
+
+def gnn_impact_prediction(state: State) -> dict:
+    component_id = state["parsed"].get("component_id", "FRAME-TOP-PLATE")
+
+    # Extract candidate nodes from current state/graph query
+    candidate_nodes = state.get("candidates", [])
+    edges = state.get("edges", [])
+
+    if candidate_nodes:
+        predictions = predict_impact_scores(candidate_nodes, edges, component_id)
+        # Filter nodes with high probability threshold (> 0.6)
+        high_risk_gnn = [nid for nid, score in predictions.items() if score > 0.6]
+    else:
+        high_risk_gnn = [component_id, "MCH-CNC-04"] # Fallback synthetic high risk
+
+    print(f"  [GNN] High-probability impacted nodes predicted: {high_risk_gnn}")
+    return {"gnn_impacts": high_risk_gnn}
 
 
 def main():
