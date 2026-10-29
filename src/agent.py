@@ -73,7 +73,7 @@ def parse_change(state: State) -> dict:
     req = state["request"]
     
     # Simple extraction rule to test the workflow without an LLM
-    cid = "FRAME-TOP-PLATE" if "FRAME-TOP-PLATE" in req else "COMP-001"
+    cid = "FRAME-TOP-PLATE"
     attr = "material" if "material" in req.lower() else "process"
     
     parsed = {
